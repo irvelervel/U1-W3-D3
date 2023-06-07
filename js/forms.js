@@ -32,3 +32,7 @@ myForm.addEventListener('submit', function (e) {
   console.log('city:', city)
   console.log('details:', details)
 })
+
+// PERSONALIZZIAMO IL MESSAGGIO DI ERRORE DI VALIDAZIONE DI NAME
+// const nameInputField = document.getElementById('name')
+// nameInputField.setCustomValidity('no no no!')

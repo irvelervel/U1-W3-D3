@@ -19,11 +19,14 @@
               id="name"
               type="text"
               placeholder="Inserisci qui il tuo nome"
+              required
+              minlength="3"
+              maxlength="20"
             />
           </div>
           <div>
             <label for="age">Età</label>
-            <input id="age" type="number" />
+            <input id="age" type="number" required min="0" max="100" />
           </div>
           <div>
             <label for="city">Città</label>
@@ -31,6 +34,7 @@
               id="city"
               type="text"
               placeholder="Inserisci qui il tuo nome"
+              required
             />
           </div>
           <div>
