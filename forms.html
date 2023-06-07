@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <h1>FORMS IN HTML/JS</h1>
+        <form id="main-form">
+          <div>
+            <!-- label è un campo opzionale che fornisce un'etichetta per un input field -->
+            <!-- la si "aggancia" semanticamente ad un input field assegnandone l'id all'attributo "for" -->
+            <label for="name">Nome</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="Inserisci qui il tuo nome"
+            />
+          </div>
+          <div>
+            <label for="age">Età</label>
+            <input id="age" type="number" />
+          </div>
+          <div>
+            <label for="city">Città</label>
+            <input
+              id="city"
+              type="text"
+              placeholder="Inserisci qui il tuo nome"
+            />
+          </div>
+          <div>
+            <label for="details">Dettagli</label>
+            <textarea id="details" rows="5"></textarea>
+          </div>
+          <div>
+            <button type="submit">INVIA</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script src="js/forms.js"></script>
+  </body>
+</html>
